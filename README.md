@@ -1,7 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple blog system written in Ruby on Rails, following the guide on the
+[official website](http://guides.rubyonrails.org/getting_started.html).
 
 Things you may want to cover:
 
