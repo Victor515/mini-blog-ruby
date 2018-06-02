@@ -1,8 +1,8 @@
-# README
+# mini-blog
 
 This is a simple blog system written in Ruby on Rails, following the guide on the [official website](http://guides.rubyonrails.org/getting_started.html). Based on that, Bootstrap framework is used to decorate the website.
 
-Click me for [demo](https://hidden-bastion-64624.herokuapp.com/)
+Click me for [demo](https://hidden-bastion-64624.herokuapp.com/)  
 User Authentication:
 * Username: dhh
 * Password: secret
