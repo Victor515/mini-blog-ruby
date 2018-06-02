@@ -2,11 +2,11 @@
 
   <% if @article.errors.any? %>
     <div id="error_explanation">
-      <h2>
+      <h2 class="text-danger">
         <%= pluralize(@article.errors.count, "error") %> prohibited
         this article from being saved:
       </h2>
-      <ul>
+      <ul class="list-group">
         <% @article.errors.full_messages.each do |msg| %>
           <li><%= msg %></li>
         <% end %>
@@ -14,18 +14,18 @@
     </div>
   <% end %>
 
-  <p>
-    <%= form.label :title %><br>
+  <div class="form-group">
+    <%= form.label :title%><br>
     <%= form.text_field :title %>
-  </p>
+  </div>
 
-  <p>
-    <%= form.label :text %><br>
-    <%= form.text_area :text %>
-  </p>
+  <div class="form-group">
+    <%= form.label :text%><br>
+    <%= form.text_area :text, rows: "15", cols: "100"%>
+  </div>
 
-  <p>
-    <%= form.submit %>
-  </p>
+  <div class="form-group">
+    <%= form.submit :class => "btn btn-primary" %>
+  </div>
 
 <% end %>

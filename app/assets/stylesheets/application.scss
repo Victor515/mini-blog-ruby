@@ -13,3 +13,8 @@
  */
  @import "bootstrap-sprockets";
  @import "bootstrap";
+
+// remove the dots in front of list item
+ul {
+  list-style-type: none;
+}
