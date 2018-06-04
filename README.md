@@ -12,7 +12,7 @@ User Authentication:
 * Ruby v2.3.3
 * Rails v.5.1.6  
 
-## Configuravtion
+## Configuration
 For Heroku deployment, underlying database server is changed from default sqlite3 to postgresql. If you want to run this project with sqlite3, you will need to edit `Gemfile` and change this line:
 ```
 gem 'pg'
